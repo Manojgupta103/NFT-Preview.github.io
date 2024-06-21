@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 97vh;
+    width: auto;
+}
+
+.box{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 68vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.pic {
+    width: 280px;
+    height: 33vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.text h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.text p { 
+    color: hsl(215, 51%, 70%);
+}
+
+.etherum {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.etherum img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.etherum p {
+    color: hsl(178, 100%, 50%);
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.footer {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+
+.footer span {
+    color: hsl(0, 0%, 100%);
+}
+
+
